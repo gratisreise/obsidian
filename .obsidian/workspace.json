@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
+                "file": "Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
+                "file": "Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
+                "file": "Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md"
+                "file": "Spring/01.spring-intro/02. 스프링 웹 개발 기초.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "573c2bded8435bb6",
   "lastOpenFiles": [
+    "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "SpringBoot/05.core-basic/10. 모니터링 메트릭 활용.md",
