@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "4082dd8b248d6966",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d001d55a05eba62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "573c2bded8435bb6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "edc148bece73eec8",
+    "type": "split",
+    "children": [
+      {
+        "id": "df68aca806bca84c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05532a00d715873b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "99e4c0a67aea4d6c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5aca94526e0c9af7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "64eb5b19af508f61",
+    "type": "split",
+    "children": [
+      {
+        "id": "7876f7ae27e8f5e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce4a736b793a3c8d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70ae9b67c024828b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7411e4816b4b4fbf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8e619b81308aa015",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "05532a00d715873b",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "SpringBoot/05.core-basic/10. 모니터링 메트릭 활용.md",
+    "SpringBoot/05.core-basic/09. 마이크로미터, 프로메테우스, 그라파나.md",
+    "SpringBoot/05.core-basic/08. 액츄에이터.md",
+    "SpringBoot/05.core-basic/07. 외부설정과 프로필2.md",
+    "SpringBoot/05.core-basic/06. 외부설정과 프로필1.md",
+    "SpringBoot/05.core-basic/05. 자동 구성(Auto Configuration).md",
+    "SpringBoot/05.core-basic/04. 스프링 부트 스타터와 라이브러리 관리.md",
+    "SpringBoot/05.core-basic/03. 스프링 부트와 내장 톰켓.md",
+    "SpringBoot/05.core-basic/02. 웹 서버와 서블릿 컨테이너.md",
+    "SpringBoot/05.core-basic/01. 스프링 부트 소개.md",
+    "SpringBoot/04.querydsl/07. 스프링 데이터 JPA가 제공하는 Querydsl 기능.md",
+    "SpringBoot/04.querydsl/06. 실무 활용 - 순수 JPA와 Querydsl.md",
+    "SpringBoot/04.querydsl/05. 중급 문법.md",
+    "SpringBoot/04.querydsl/04. 기본 문법.md",
+    "SpringBoot/04.querydsl/03. 예제 도메인 모델.md",
+    "SpringBoot/04.querydsl/02. 프로젝트 환경설정.md",
+    "SpringBoot/04.querydsl/01. Querydsl 소개.md",
+    "SpringBoot/03.spring-data-jpa/07. 나머지 기능들.md",
+    "SpringBoot/03.spring-data-jpa/06. 스프링 데이터 JPA 분석.md",
+    "SpringBoot/03.spring-data-jpa/05. 확장 기능.md",
+    "SpringBoot/03.spring-data-jpa/04. 쿼리 메소드 기능.md",
+    "SpringBoot/03.spring-data-jpa/03. 공통 인터페이스 기능.md",
+    "SpringBoot/03.spring-data-jpa/02. 예제 도메인 모델.md",
+    "SpringBoot/03.spring-data-jpa/01. 프로젝트 환경설정.md",
+    "SpringBoot/02.jpa활용/2-05. API 개발 고급 - 실무 필수 최적화.md",
+    "SpringBoot/01.orm-jpa/Untitled",
+    "SpringBoot/05.core-basic",
+    "Spring/04.spring-mvc/Untitled",
+    "Untitled",
+    "ProgramingLanguage",
+    "DataStructure",
+    "Algorithm",
+    "SpringBoot/04.querydsl",
+    "SpringBoot/03.spring-data-jpa",
+    "SpringBoot/02.jpa활용"
+  ]
+}
