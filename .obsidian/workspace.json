@@ -11,8 +11,12 @@
             "id": "573c2bded8435bb6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spring/01.spring-intro/01. 프로젝트 환경설정.md"
+              }
             }
           }
         ]
@@ -138,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05532a00d715873b",
+  "active": "573c2bded8435bb6",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Untitled 1.canvas",
