@@ -9,3 +9,24 @@
 > database management systems
 
 사용자에게 DB를 정의하고 만들고 관리하는 기능을 제공하는 소프트웨어 시스템
+
+
+> database schema
+
+
+
+> database state
+
+
+
+> three-schema architecture
+
+- external
+- concep
+- internal
+
+
+
+> Database Language
+
+
