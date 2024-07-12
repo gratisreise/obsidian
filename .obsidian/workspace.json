@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/01.spring-intro/07. AOP.md",
+                "file": "Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/01.spring-intro/07. AOP.md",
+                "file": "Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/01.spring-intro/07. AOP.md",
+                "file": "Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/01.spring-intro/07. AOP.md"
+                "file": "Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md"
               }
             }
           }
@@ -159,15 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05532a00d715873b",
+  "active": "d7f243fb842cf16c",
   "lastOpenFiles": [
+    "Spring/01.spring-intro/07. AOP.md",
     "Spring/01.spring-intro/06. 스프링 DB 접근 기술.md",
     "Spring/01.spring-intro/05. 웹 MVC 개발.md",
     "Spring/01.spring-intro/04. 스프링 빈과 의존관계.md",
     "Spring/01.spring-intro/03. 백엔드 개발.md",
     "Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
     "Spring/01.spring-intro/01. 프로젝트 환경설정.md",
-    "Spring/01.spring-intro/07. AOP.md",
     "MarkDown.md",
     "이미지주소.md",
     "MarkDown",
