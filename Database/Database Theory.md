@@ -1,5 +1,5 @@
 
-> Database?
+> Database
 
 전자적으로(electronically) 저장되고 사용되는 관련련있는(related) 데이터들의 조직화된 집합(organized collection)
 
@@ -22,7 +22,7 @@
 > three-schema architecture
 
 - external
-- concep
+- conceptual
 - internal
 
 
