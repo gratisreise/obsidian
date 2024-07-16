@@ -10,7 +10,7 @@
 
 ### 등장배경
 - high-throughput이 요구됨
-- law-latency이 요구됨
+- low-latency이 요구됨
 - 비정형 데이터의 증가(기존의 rdb는 유연성이 떨어짐)
 
 
@@ -18,6 +18,7 @@
 - flexible schema
 - 중복 허용(join 회피)
 - scale-out 최적화:뇌지컬(로직)이 좋을수록 다양하게 가능
+- ACID의 일부를 포기 => high-throughput, low-latency
 
 
 ### 단점
