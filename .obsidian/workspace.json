@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/NoSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/NoSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/NoSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Database Theory.md"
+                "file": "Database/NoSQL.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "d7f243fb842cf16c",
   "lastOpenFiles": [
-    "MarkDown.md",
     "Database/Database Theory.md",
+    "Database/NoSQL.md",
+    "MarkDown.md",
     "Database",
     "FrontEnd/React.md",
     "FrontEnd",
@@ -192,7 +193,6 @@
     "BackEnd/SpringBoot/04.querydsl/07. 스프링 데이터 JPA가 제공하는 Querydsl 기능.md",
     "BackEnd/SpringBoot/04.querydsl/06. 실무 활용 - 순수 JPA와 Querydsl.md",
     "BackEnd/SpringBoot/04.querydsl/05. 중급 문법.md",
-    "BackEnd/SpringBoot/04.querydsl/04. 기본 문법.md",
     "SpringBoot/01.orm-jpa/Untitled",
     "BackEnd/SpringBoot/05.core-basic",
     "Spring/04.spring-mvc/Untitled",
