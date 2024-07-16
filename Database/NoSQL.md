@@ -8,3 +8,14 @@
 - scale-out에 유연하지 않다
 - transacion ACID
 
+### 등장배경
+- high-throughput이 요구됨
+- law-latency이 요구됨
+- 비정형 데이터의 증가(기존의 rdb는 유연성이 떨어짐)
+
+
+### 특징
+- flexible schema
+- 
+
+
