@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/NoSQL.md",
+                "file": "Database/Kafka.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/NoSQL.md",
+                "file": "Database/Kafka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/NoSQL.md",
+                "file": "Database/Kafka.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/NoSQL.md"
+                "file": "Database/Kafka.md"
               }
             }
           }
@@ -161,8 +161,11 @@
   },
   "active": "d7f243fb842cf16c",
   "lastOpenFiles": [
-    "Database/Database Theory.md",
+    "Database/Redis.md",
     "Database/NoSQL.md",
+    "Database/MongoDB.md",
+    "Database/Kafka.md",
+    "Database/Database Theory.md",
     "MarkDown.md",
     "Database",
     "FrontEnd/React.md",
@@ -190,9 +193,6 @@
     "BackEnd/SpringBoot/05.core-basic/03. 스프링 부트와 내장 톰켓.md",
     "BackEnd/SpringBoot/05.core-basic/02. 웹 서버와 서블릿 컨테이너.md",
     "BackEnd/SpringBoot/05.core-basic/01. 스프링 부트 소개.md",
-    "BackEnd/SpringBoot/04.querydsl/07. 스프링 데이터 JPA가 제공하는 Querydsl 기능.md",
-    "BackEnd/SpringBoot/04.querydsl/06. 실무 활용 - 순수 JPA와 Querydsl.md",
-    "BackEnd/SpringBoot/04.querydsl/05. 중급 문법.md",
     "SpringBoot/01.orm-jpa/Untitled",
     "BackEnd/SpringBoot/05.core-basic",
     "Spring/04.spring-mvc/Untitled",
