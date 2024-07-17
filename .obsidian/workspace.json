@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7d001d55a05eba62",
+        "id": "d30fefc3217087ea",
         "type": "tabs",
         "children": [
           {
-            "id": "573c2bded8435bb6",
+            "id": "4c6703253d0db47d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BackEnd/Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7f243fb842cf16c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Kafka.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Kafka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Kafka.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Database/Kafka.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,13 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7f243fb842cf16c",
+  "active": "4c6703253d0db47d",
   "lastOpenFiles": [
-    "Database/Redis.md",
-    "Database/NoSQL.md",
+    "BackEnd/Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
     "Database/MongoDB.md",
     "Database/Kafka.md",
     "Database/Database Theory.md",
+    "Database/Redis.md",
+    "Database/NoSQL.md",
     "MarkDown.md",
     "Database",
     "FrontEnd/React.md",
@@ -178,7 +158,6 @@
     "BackEnd/Spring/01.spring-intro/05. 웹 MVC 개발.md",
     "BackEnd/Spring/01.spring-intro/04. 스프링 빈과 의존관계.md",
     "BackEnd/Spring/01.spring-intro/03. 백엔드 개발.md",
-    "BackEnd/Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
     "BackEnd/Spring/01.spring-intro/01. 프로젝트 환경설정.md",
     "MarkDown",
     "Untitled.canvas",
