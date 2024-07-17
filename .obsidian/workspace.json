@@ -11,8 +11,12 @@
             "id": "4c6703253d0db47d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md"
+              }
             }
           }
         ]
@@ -140,7 +148,14 @@
   },
   "active": "4c6703253d0db47d",
   "lastOpenFiles": [
+    "BackEnd/Spring/01.spring-intro/07. AOP.md",
+    "BackEnd/Spring/01.spring-intro/06. 스프링 DB 접근 기술.md",
+    "BackEnd/Spring/01.spring-intro/05. 웹 MVC 개발.md",
+    "BackEnd/Spring/01.spring-intro/04. 스프링 빈과 의존관계.md",
+    "BackEnd/Spring/01.spring-intro/03. 백엔드 개발.md",
     "BackEnd/Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
+    "BackEnd/Spring/01.spring-intro/01. 프로젝트 환경설정.md",
+    "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
     "Database/MongoDB.md",
     "Database/Kafka.md",
     "Database/Database Theory.md",
@@ -150,15 +165,8 @@
     "Database",
     "FrontEnd/React.md",
     "FrontEnd",
-    "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
     "이미지주소.md",
     "BackEnd",
-    "BackEnd/Spring/01.spring-intro/07. AOP.md",
-    "BackEnd/Spring/01.spring-intro/06. 스프링 DB 접근 기술.md",
-    "BackEnd/Spring/01.spring-intro/05. 웹 MVC 개발.md",
-    "BackEnd/Spring/01.spring-intro/04. 스프링 빈과 의존관계.md",
-    "BackEnd/Spring/01.spring-intro/03. 백엔드 개발.md",
-    "BackEnd/Spring/01.spring-intro/01. 프로젝트 환경설정.md",
     "MarkDown",
     "Untitled.canvas",
     "Untitled 1.canvas",
