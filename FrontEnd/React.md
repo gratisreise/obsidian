@@ -5,4 +5,5 @@ browser[dom] <---> Elm Runtime[vdom]
 
 ### VDOM
 HTML
-기능 초기화 = 코드를 가져온다.
+initial model =>  vdom(코드) =>  dom띄워주기 => 실제돔을 눌렀다(이벤트) => vdom(코드)
+=>
