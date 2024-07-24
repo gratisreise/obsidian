@@ -32,4 +32,5 @@ cli에서 e(environment): 환경변수  || x(execute) : 실행
 
 node_modules: 라이브러리 모음
 
-npm wor
+npm warn : ~~~ 오류가 있을 수도 있다.
+script: 대본
