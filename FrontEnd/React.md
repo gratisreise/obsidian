@@ -30,3 +30,4 @@ npx create-react-app
 
 cli에서 e(environment): 환경변수  || x(execute) : 실행
 
+node_modules: 라이브러리 모음
