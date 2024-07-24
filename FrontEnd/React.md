@@ -1,7 +1,7 @@
 
 ### React-Dom
 
-browser[dom] <---> Elm Runtime[vdom]
+Browser[dom] <---> Elm Runtime[vdom]
 
 ### VDOM
 --- 
