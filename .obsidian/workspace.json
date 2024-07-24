@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/NoSQL.md",
+                "file": "FrontEnd/React.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/NoSQL.md",
+                "file": "FrontEnd/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/NoSQL.md",
+                "file": "FrontEnd/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/NoSQL.md"
+                "file": "FrontEnd/React.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "40d49ed617211465",
   "lastOpenFiles": [
+    "Database/NoSQL.md",
     "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
     "BackEnd/Spring/01.spring-intro/07. AOP.md",
     "BackEnd/Spring/01.spring-intro/06. 스프링 DB 접근 기술.md",
@@ -160,7 +161,6 @@
     "Database/Kafka.md",
     "Database/Database Theory.md",
     "Database/Redis.md",
-    "Database/NoSQL.md",
     "MarkDown.md",
     "Database",
     "FrontEnd/React.md",
