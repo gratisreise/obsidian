@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd/React.md",
+                "file": "FrontEnd/리액트 코드 컨벤션.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrontEnd/React.md",
+                "file": "FrontEnd/리액트 코드 컨벤션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrontEnd/React.md",
+                "file": "FrontEnd/리액트 코드 컨벤션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrontEnd/React.md"
+                "file": "FrontEnd/리액트 코드 컨벤션.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   "active": "8efe2f4f7836408e",
   "lastOpenFiles": [
     "FrontEnd/React.md",
+    "FrontEnd/리액트 코드 컨벤션.md",
     "Database/NoSQL.md",
     "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
     "BackEnd/Spring/01.spring-intro/07. AOP.md",
@@ -179,7 +180,6 @@
     "BackEnd/SpringBoot/05.core-basic/04. 스프링 부트 스타터와 라이브러리 관리.md",
     "BackEnd/SpringBoot/05.core-basic/03. 스프링 부트와 내장 톰켓.md",
     "BackEnd/SpringBoot/05.core-basic/02. 웹 서버와 서블릿 컨테이너.md",
-    "BackEnd/SpringBoot/05.core-basic/01. 스프링 부트 소개.md",
     "SpringBoot/01.orm-jpa/Untitled",
     "BackEnd/SpringBoot/05.core-basic",
     "Spring/04.spring-mvc/Untitled",
