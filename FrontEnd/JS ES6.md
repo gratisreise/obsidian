@@ -7,4 +7,8 @@
 	   - 함수 안에서 사용
 2. 가장 가까운 객체:
 	- object 안에서 사용
-	- 
+3. 새로생성되는 오브젝트
+	- constrouctor의 안에서 사용
+4. e.currentTarget
+	- eventlistener 안에서 사용
+
