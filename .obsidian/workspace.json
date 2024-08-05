@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e33409f28376044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/네이버클라우드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "연습.md",
+                "file": "Cloud/네이버클라우드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "연습.md",
+                "file": "Cloud/네이버클라우드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "연습.md"
+                "file": "Cloud/네이버클라우드.md"
               }
             }
           }
@@ -159,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17696b52e5111e16",
+  "active": "0e33409f28376044",
   "lastOpenFiles": [
-    "MarkDown.md",
     "연습.md",
+    "Cloud/네이버클라우드.md",
+    "Cloud",
+    "MarkDown.md",
     "FrontEnd/JS ES6.md",
     "FrontEnd/리액트 코드 컨벤션.md",
     "FrontEnd/React.md",
@@ -192,12 +206,10 @@
     "BackEnd/SpringBoot/05.core-basic/07. 외부설정과 프로필2.md",
     "BackEnd/SpringBoot/05.core-basic/06. 외부설정과 프로필1.md",
     "BackEnd/SpringBoot/05.core-basic/05. 자동 구성(Auto Configuration).md",
-    "BackEnd/SpringBoot/05.core-basic/04. 스프링 부트 스타터와 라이브러리 관리.md",
     "SpringBoot/01.orm-jpa/Untitled",
     "BackEnd/SpringBoot/05.core-basic",
     "Spring/04.spring-mvc/Untitled",
     "ProgramingLanguage",
-    "DataStructure",
-    "Algorithm"
+    "DataStructure"
   ]
 }
