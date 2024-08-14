@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/Relational Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/Relational Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/Relational Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Database Theory.md"
+                "file": "Database/Relational Database.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "0e33409f28376044",
   "lastOpenFiles": [
-    "Database/Kafka.md",
     "Database/Database Theory.md",
+    "Database/Relational Database.md",
+    "Database/Kafka.md",
     "Database/MongoDB.md",
     "Database/Redis.md",
     "Database/NoSQL.md",
@@ -180,7 +181,6 @@
     "BackEnd/SpringBoot/05.core-basic/08. 액츄에이터.md",
     "BackEnd/SpringBoot/05.core-basic/07. 외부설정과 프로필2.md",
     "BackEnd/SpringBoot/05.core-basic/06. 외부설정과 프로필1.md",
-    "BackEnd/SpringBoot/05.core-basic/05. 자동 구성(Auto Configuration).md",
     "SpringBoot/01.orm-jpa/Untitled",
     "BackEnd/SpringBoot/05.core-basic",
     "Spring/04.spring-mvc/Untitled",

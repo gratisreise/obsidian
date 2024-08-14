@@ -112,3 +112,24 @@ three-schema의 목적
 - entities, data types, relationships, user operations, constraints에 집중
 - logical data model을 통해 기술
 
+>data defination language(DDL)
+- conceptual schema를 정의하기 위해 사용되는 언어
+- internal schema까지 정의할 수 있는 경우도 있음
+
+> storage definition language(SDL)
+
+- internal schema를 정의하는 용도로 사용되는 어너
+- 요즘은 특히 relational DBMS에서는 SDL이 거의 없고 파라미터 등의 설정으로 대체됨
+
+> view definition language(VDL)
+- external schemas를 정의하기 위해 사용되는 언어
+- 대부분의 DBMS에서는 DDL이 VDL이 역할까지 수행
+
+> data manipulation language(DML)
+- database에 있는 data를 활용하기 위한 언어
+- data 추가, 삭제, 수정, 검색 등등의 기능을 제공하는 언어
+
+>통합된 언어
+- 오늘날의 DBMS는 DML, VDL, DDL이 따로 존재하기 보다는 통합된 언어로 존재
+- 대표적인 예가 relational database language: SQL
+
