@@ -25,9 +25,16 @@ ex) PostgreSQL, MySQL, ORACLE, MS-SQL
 - database + DBMS + 연관된 applications
 - 줄여서 database라고도 부름(문맥에 따라 파악 필요)
 
-[이미지](https://www.researchgate.net/publication/326006960/figure/fig1/AS:641949367279620@1530064064883/Simplified-database-system-Risunok-1-Uprosennaa-sistema-baz-dannyh-Slika.png)
+![이미지](https://www.researchgate.net/publication/326006960/figure/fig1/AS:641949367279620@1530064064883/Simplified-database-system-Risunok-1-Uprosennaa-sistema-baz-dannyh-Slika.png)
 
-> database schema
+
+> data models
+
+- DB의 구조(structure)를 기술하는데 사용될 수 있는 개념들이 모인 집합
+- DB 구조를 추상화(??)해서 표현할 수 있는 수단을 제공한다
+- data model은 여러 종류가 있으며 추상화 수준과 DB 구조화 방식이 조금씩 다르다
+- DB에서 읽고 쓰기 위한 기본적인 동작들(operations)도 포함한다.
+DB 구조: 데이터 유형, 데이터관계(relationship), 제약사항(constraints) 등등
 
 
 
