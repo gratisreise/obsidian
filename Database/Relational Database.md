@@ -87,6 +87,8 @@
 - domain constraints: attribute의 value는 해당 attribute의 domain에 속한 value여야 한다
 - key constraints: 서로 다른 tuples는 같은 value의 key를 가질 수 없다
 - NULL value constraint: attribute가 NOT NULL로 명시됐다면 NULL을 값으로 가질 수 없다
+- entity integrity constraint: primary key는 value에 NULL을 가질 수 없다
+- referential integrity constraint: FK와 PK와 도메인이 같아야 하고 PK에 없는 values를 FK가 값으로 가질 수 없다
 
 
 
