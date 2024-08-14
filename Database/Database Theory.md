@@ -31,11 +31,24 @@ ex) PostgreSQL, MySQL, ORACLE, MS-SQL
 > data models
 
 - DB의 구조(structure)를 기술하는데 사용될 수 있는 개념들이 모인 집합
-- DB 구조를 추상화(??)해서 표현할 수 있는 수단을 제공한다
+- DB 구조를 추상화(인간 친화적)해서 표현할 수 있는 수단을 제공한다
 - data model은 여러 종류가 있으며 추상화 수준과 DB 구조화 방식이 조금씩 다르다
 - DB에서 읽고 쓰기 위한 기본적인 동작들(operations)도 포함한다.
 DB 구조: 데이터 유형, 데이터관계(relationship), 제약사항(constraints) 등등
 
+> data models 분류
+
+- conceptual(or high-level) data models
+- logical(or representational) data models
+- physical(or low-level) data models
+
+> conceptual data models
+
+- 일반 사용자들이 쉽게 이해할 수 있는 개념들로 이뤄진 모델
+- 추상화 수준이 가장 높음
+- 비즈니스 요구 사항을 추상화하여 기술할 때 사용
+
+[entity-relationship mode]()
 
 
 > database state
