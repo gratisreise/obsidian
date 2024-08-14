@@ -19,3 +19,13 @@
 > IT회사 관련 RDB 만들기
 - 부서, 사원, 프로젝트 관련 정보들을 저장할 수 있는 관계형 데이터베이스를 만들자
 - 사용할 RDBMS는 MySQL(InnoDB)
+
+>My SQL 명령어
+
+| 명령어                     | 설명                      |
+| ----------------------- | ----------------------- |
+| show databases          | 터미널에서 database 목록을 띄워준다 |
+| create database company | 새로운 데이터 베이스 생성          |
+| select database()       | 선택된 데이터베이스 확인           |
+| use {데이터베이스명}           | 데이터베이스 선택               |
+| drop                    |                         |
