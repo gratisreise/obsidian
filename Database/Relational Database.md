@@ -7,3 +7,6 @@
 > relation in mathematics
 - subset of Cartesian product
 - set of tuples
+
+> relation data model
+- student relation을 예를 들어 relational data model을 이해해 보겠습니다
