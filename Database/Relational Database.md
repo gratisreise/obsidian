@@ -75,6 +75,7 @@
 
 > constraints
 - relational database의 relations들이 언제나 항상 지켜줘야 하는 제약 사항
+- 일관성을 유지하기 위해 사용한다
 
 > implicit constraints(묵시적)
 - relational data model 자체가 가지는 constraints
