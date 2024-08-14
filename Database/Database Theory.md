@@ -48,7 +48,11 @@ ex) PostgreSQL, MySQL, ORACLE, MS-SQL
 - 추상화 수준이 가장 높음
 - 비즈니스 요구 사항을 추상화하여 기술할 때 사용
 
-[entity-relationship mode]()
+> logical data models
+
+- 이해하기 어렵지 않으면서도 디테일하게 DB를 구조화 할 수 있는 개념들을 제공
+- 데이터가 컴퓨터에 저당될 때의 구조와 크게 다르지 않게 DB 구조화를 가능하게 함
+- 특정 DBMS나 storage에 종속되지 않는 수준에서 DB를 구조화할 수 있는 모델
 
 
 > database state
