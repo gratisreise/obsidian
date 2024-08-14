@@ -90,6 +90,12 @@ ex) relational data model, object data model, object-relational data model
 - conceptual
 - internal
 
+three-schema의 목적
+- 각 레벨을 독립시켜서 어는 레벨에서의 변화가 상위 레벨에 영향을 주지 않기 위함
+- 대부분의 DBMS가 three level을 완벽하게 혹은 명시적으로 나누지는 않음
+- 데이터가 존재하는 곳은 internal level
+
+
 > internal schema
 - 물리적으로 데이터가 어떻게 저장되는지 physical data model을 통해 표현
 - data storage, data structure, access path 등등 실체가 있는 내용 기술
@@ -99,4 +105,10 @@ ex) relational data model, object data model, object-relational data model
 - 특정 유저들이 필요로 하는 데이터만 표현
 - 그 외 알려줄 필요가 없는 데이터는 숨김
 - logical data model을 통해 표현
+
+> conceptual schema
+- 전체 database에 대한 구조를 기술
+- 물리적인 저장 구조에 관한 내용은 숨김
+- entities, data types, relationships, user operations, constraints에 집중
+- logical data model을 통해 기술
 
