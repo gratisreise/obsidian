@@ -82,13 +82,21 @@ ex) relational data model, object data model, object-relational data model
 - user application으로 부터 물리적인(physical) database를 분리시키는 목적
 - 세 가지 level이 존재하며 각각의 level마다 schema가 정의되어 있다
 
+![tree-schema](https://static.javatpoint.com/dbms/images/dbms-three-schema-architecture.png)
+
+
 3가지Level
 - external
 - conceptual
 - internal
 
+> internal schema
+- 물리적으로 데이터가 어떻게 저장되는지 physical data model을 통해 표현
+- data storage, data structure, access path 등등 실체가 있는 내용 기술
 
-
-> Database Language
-
+> external schema
+- external views, user views라고도 불림
+- 특정 유저들이 필요로 하는 데이터만 표현
+- 그 외 알려줄 필요가 없는 데이터는 숨김
+- logical data model을 통해 표현
 
