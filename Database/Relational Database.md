@@ -46,3 +46,16 @@
 - 값이 존재하지 않는다
 - 값이 존재하난 아직 그 값이 무엇인지 알지 못한다
 - 해당 사항과 관련이 없다
+- 최대한 쓰지 않는게 좋다
+
+> superkey
+- relation에서 tuples를 unique하게 식별할 수 있는 attributes set
+- PLAYER(id, name, team_id, back_number)의 superkey는 {id, name,team_id},{id, name}, ... etc
+
+>candidate key
+- 어느 한 attribute라도 제거하면 unique하게 tuples를 식별할 수 없는 superkey
+- key or minimal superkey
+- e.g PLAYER(id, name, team_id, back_number, birth_date)의 candidate key는
+  {id}, {team_id, back_number}
+
+
