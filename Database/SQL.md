@@ -22,10 +22,16 @@
 
 >My SQL 명령어
 
-| 명령어                     | 설명                      |
-| ----------------------- | ----------------------- |
-| show databases          | 터미널에서 database 목록을 띄워준다 |
-| create database company | 새로운 데이터 베이스 생성          |
-| select database()       | 선택된 데이터베이스 확인           |
-| use {데이터베이스명}           | 데이터베이스 선택               |
-| drop                    |                         |
+| 명령어                      | 설명                      |
+| ------------------------ | ----------------------- |
+| show databases           | 터미널에서 database 목록을 띄워준다 |
+| create database company  | 새로운 데이터 베이스 생성          |
+| select database()        | 선택된 데이터베이스 확인           |
+| use {데이터베이스명}            | 데이터베이스 선택               |
+| drop  database {데이터베이스명} |                         |
+
+>DATABASE vs SCHEMA
+- MySQL에서는 DATABASE와 SCHEMA가 같은 뜻을 의미
+- create datebase {db이름} = create schema {db이름}
+- 다른 RDBMS에서는 의미가 다르게 쓰임
+- i.g PostgreSQL에서는 SCHEMA가 DATABASE의 namespace를 의미한다
