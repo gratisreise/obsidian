@@ -7,4 +7,4 @@
 > realation in mathematics
 
 ![이미지](https://www.simply.science/popups/images/s21.jpg)
-- Cartesian product A x B = {(a,b) | a  }
+- Cartesian product A x B = set A의 요소 하나를 고르고 set B의 요소를 하나 골라서 페어를 만든다 
