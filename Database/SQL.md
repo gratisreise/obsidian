@@ -241,4 +241,7 @@ create table TEST(
 ### SELECT를 사용할 때 주의할 점
 1. SELECT로 조회할 때 조건들을 포함해서 조회를 한다면 이 조건들과 관련된 attributes에 index가 걸려있어야 한다. 그렇지 않다면 데이터가 많아질수록 조회 속도가 느려진다
 2. 현재 mysql 기준이기 때문에 다른 RDB 사용시 참고해서 사용해라
-3. 
+
+
+## subquery
+
