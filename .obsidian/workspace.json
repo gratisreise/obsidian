@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/옵시디언 시작하기.md",
+                "file": "Practice/내부링크.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Practice/옵시디언 시작하기.md",
+                "file": "Practice/내부링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Practice/옵시디언 시작하기.md",
+                "file": "Practice/내부링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Practice/옵시디언 시작하기.md"
+                "file": "Practice/내부링크.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   "active": "0e33409f28376044",
   "lastOpenFiles": [
     "Practice/옵시디언 시작하기.md",
+    "Practice/내부링크.md",
     "Practice/Shortcut.md",
     "Practice/심화활용.md",
     "Practice/옵시디언 핵심 기능 활용하기.md",
@@ -174,7 +175,6 @@
     "BackEnd/Spring/01.spring-intro/07. AOP.md",
     "BackEnd/Spring/01.spring-intro/06. 스프링 DB 접근 기술.md",
     "BackEnd/Spring/01.spring-intro/05. 웹 MVC 개발.md",
-    "BackEnd/Spring/01.spring-intro/04. 스프링 빈과 의존관계.md",
     "Database",
     "FrontEnd",
     "BackEnd",
