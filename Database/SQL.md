@@ -70,7 +70,8 @@ create table DEPARTMENT(
 | <u>empl_id | <u>proj_id |
 | ---------- | ---------- |
 
-### attribute data type: 숫자
+## attribute data type
+###  숫자
 - 정수 : 정수를 저장할 때 사용
 	- 1 byte: TINYINT
 	- 2 byte: SMALLINT
@@ -83,6 +84,22 @@ create table DEPARTMENT(
 - 고정 소수점 방식(fixed-point): 실수를 정확하게 저장할 때 사용, DECIMAL(precision, scale)
 	- ex) DECIMAL(5,2) =>[-999.99 ~ 999.99]
 	- variable:  DECIMAL or NUMERIC
+
+### 문자
+- 고정 크기 문자열
+	- 최대 몇개의 '문자'를 가지는 문자열을 저장할지를 지정
+	- 저장될 문자열의 길이가 최대 길이보다 작으면 나머지를 space로 채워서 저장
+	- name char(4): 'a   ', '한국  ', '고고고고', 'wow '
+	- CHAR(n) (0 <= n <= 255)
+- 가변 크기 문자열
+	- 최대 몇 개의 '문자'를 가지는 문자열을 저장할지를 지정
+	- 저장될 문자열의 길이 만큼만 저장
+	- name varchar(4): 'a', '한국', '고고고고', 'wow'
+	- VARCHAR(n) (0 <= n <= 65,535)
+- 사이즈가 큰 물자열
+	- 사이즈가 큰 문자열을 저장할 때 사용
+	- TINYTEXT, TEXT, MEDIUMTEXT, LONGTEXT
+
 
 
 
