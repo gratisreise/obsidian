@@ -248,3 +248,7 @@ create table TEST(
 - **subquery**는 SELECT, INSERT, UPDATE, DELETE에 포함된 query
 - **outer query**(main query)는 subquery를 포함하는 query
 - **subquery**는 () 안에 기술된다
+- v IN (v1, v2, v3,...):v가 (v1, v2, v3...)중에 하나와 값이 같다면 TRUE를 return 한다
+- (v1, v2, v3,...)는 명시적인 값들의 집합일 수도 있고 subquery의 결과(set or multiset)일 수도 있다
+- v NOT IN(v1, v2, v3,...) : v가 () 안의 모든 값과 값이 다르다면 TRUE를 return 한다
+
