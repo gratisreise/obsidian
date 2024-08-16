@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/Part1.md",
+                "file": "Practice/옵시디언 시작하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Practice/Part1.md",
+                "file": "Practice/옵시디언 시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Practice/Part1.md",
+                "file": "Practice/옵시디언 시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Practice/Part1.md"
+                "file": "Practice/옵시디언 시작하기.md"
               }
             }
           }
@@ -147,8 +147,12 @@
   },
   "active": "0e33409f28376044",
   "lastOpenFiles": [
+    "Practice/옵시디언 시작하기.md",
     "Practice/Shortcut.md",
-    "Practice/Part1.md",
+    "Practice/심화활용.md",
+    "Practice/옵시디언 핵심 기능 활용하기.md",
+    "Practice/생산성 프레임워크.md",
+    "Untitled.md",
     "Practice.md",
     "Practice",
     "MarkDown.md",
@@ -171,12 +175,8 @@
     "BackEnd/Spring/01.spring-intro/06. 스프링 DB 접근 기술.md",
     "BackEnd/Spring/01.spring-intro/05. 웹 MVC 개발.md",
     "BackEnd/Spring/01.spring-intro/04. 스프링 빈과 의존관계.md",
-    "BackEnd/Spring/01.spring-intro/03. 백엔드 개발.md",
-    "BackEnd/Spring/01.spring-intro/02. 스프링 웹 개발 기초.md",
-    "BackEnd/Spring/01.spring-intro/01. 프로젝트 환경설정.md",
     "Database",
     "FrontEnd",
-    "이미지주소.md",
     "BackEnd",
     "MarkDown",
     "Untitled.canvas",
