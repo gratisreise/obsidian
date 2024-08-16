@@ -112,9 +112,30 @@ create table DEPARTMENT(
 - 날짜와 시간
 	- 날짜와 시간을 같이 표현
 	- YYY-MM-DD hh:mm:ss
-	- TIMESTAMP는 time-zone이 반영됨
+	- TIMESTAMP는 time-zone이 반영됨(db의 타임존 기준)
 	- DATETIME('1000-01-01 00:00:00' to '9999-12-31 23:59:59')
 	- TIMESTAMP('1970-01-01 00:00:01' UTC ~ '2038-01-19 03:14:07' UTC)
+
+### 그 외
+- byte-string
+	- byte string을 저장
+	- BINARY, VARBINARY, BLOB type
+- boolean
+	- true, false를 저장
+	- MySQL에는 따로 없음 => TINYINT롤 대체해서 사용
+- 위치 관련
+	- 위치 관련 정보를 저장
+	- GEOMETRY
+- JSON
+	- json 형태의 데이터를 저장
+	- JSON
+
+
+## Key contraints
+
+### PRIMARY KEY
+- table의 tuple을 식별하기 위해 사용, 하나 이상의 attribute(s)로 구성
+- primary key는 중복된 값을 가질 수 없으며, NULL도 값으로 가질 수 없다.
 
 
 
