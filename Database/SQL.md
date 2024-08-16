@@ -44,22 +44,22 @@
 
 **DEPARTMENT**
 
-| id  | name | leader_id |
-| --- | ---- | --------- |
+| <u>id</u> | name | leader_id |
+| --------- | ---- | --------- |
 
 **EMPLOYEE**
 
-| id  | name | birth_date | sex | position | salary | dept_id |
-| --- | ---- | ---------- | --- | -------- | ------ | ------- |
+| <u>id</u> | name | birth_date | sex | position | salary | dept_id |
+| --------- | ---- | ---------- | --- | -------- | ------ | ------- |
 
 **PROJECT**
 
-| id  | name | leader_id | start_date | end_date |
-| --- | ---- | --------- | ---------- | -------- |
+| <u>id</u> | name | leader_id | start_date | end_date |
+| --------- | ---- | --------- | ---------- | -------- |
 
 **WORKS_ON**
 
-| empl_id | proj_id |
-| ------- | ------- |
+| <u>empl_id | <u>proj_id |
+| ---------- | ---------- |
 
 > 
