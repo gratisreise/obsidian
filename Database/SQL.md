@@ -152,6 +152,9 @@ create table DEPARTMENT(
 - table의 tuple을 식별하기 위해 사용, 하나 이상의 attribute(s)로 구성
 - primary key는 중복된 값을 가질 수 없으며, NULL도 값으로 가질 수 없다.
 
+### Referential integrity constrain: FOREIGN KEY
+- attribute(s)가 다른 table의 **primary key**나 **unique key**를 참조할 때 사용
+
 ### UNIQUE
 - UNIQUE로 지정된 attribute(s)는 중복된 값을 가질 수 없다
 - 단, NULL은 중복을 허용할 수도 있다(RDBMS 마다 다름)
@@ -161,6 +164,8 @@ create table DEPARTMENT(
 
 ### CHECK
 - attribute의 값을 제한하고 싶은 때 사용
+
+
 
 
 
