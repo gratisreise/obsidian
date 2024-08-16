@@ -152,8 +152,27 @@ create table DEPARTMENT(
 - table의 tuple을 식별하기 위해 사용, 하나 이상의 attribute(s)로 구성
 - primary key는 중복된 값을 가질 수 없으며, NULL도 값으로 가질 수 없다.
 
-### Referential integrity constrain: FOREIGN KEY
+###  FOREIGN KEY
 - attribute(s)가 다른 table의 **primary key**나 **unique key**를 참조할 때 사용
+```sql
+...
+dept_id INT,
+FOREIGN KEY(dept_id)
+	references DEPARTMENT(id)
+	on delete referce_option
+	on update referce_option
+
+```
+
+
+| referce_option | 설명                          |
+| -------------- | --------------------------- |
+| CASCADE        | 참조값의 삭제/변경을 그래도 반영          |
+| SET NULL       | 참조값이 삭제/변경 시 NULL로 변경       |
+| RESTRICT       | 참조값이 삭제/변경되는 것을 금지          |
+| NO ACTION      | RESTRICT와 유사                |
+| SET DEFAULT    | 참조값이 삭제/변경 시 default 값으로 변경 |
+
 
 ### UNIQUE
 - UNIQUE로 지정된 attribute(s)는 중복된 값을 가질 수 없다
