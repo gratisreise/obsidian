@@ -251,4 +251,4 @@ create table TEST(
 - v IN (v1, v2, v3,...):v가 (v1, v2, v3...)중에 하나와 값이 같다면 TRUE를 return 한다
 - (v1, v2, v3,...)는 명시적인 값들의 집합일 수도 있고 subquery의 결과(set or multiset)일 수도 있다
 - v NOT IN(v1, v2, v3,...) : v가 () 안의 모든 값과 값이 다르다면 TRUE를 return 한다
-
+- unqualified attribute가 참조하는 table은 해당 attribute가 사용된 query를 포함하여 그 query의 바깥쪽으로 존재하는 모든 queries 중에 해당 attribute 이름을 가지는 가장 가까이에 있는 table을 참조한다
