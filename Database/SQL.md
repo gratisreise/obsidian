@@ -233,3 +233,6 @@ create table TEST(
 | attribute 타입 변경 | ALTER TABLE employee MODIFY COLUMN blood CHAR(2);      |
 | table 이름 변경     | ALTER TABLE logs RENAME TO backend_logs;               |
 | ...             | ...                                                    |
+
+## database 구조를 정의할 때 중요한 점
+만들려는 서비스의 스펙과 **데이터 일관성**, **편의성**, **확장성** 등등을 종합적으로 고려하여 DB 스키마를 적절하게 정의하는 것이 중요하다
