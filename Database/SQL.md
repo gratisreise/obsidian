@@ -79,6 +79,19 @@ create table DEPARTMENT(
 
 | <u>id</u> | name | leader_id | start_date | end_date |
 | --------- | ---- | --------- | ---------- | -------- |
+```sql
+create table PROJECT(
+	id INT PRIMARY KEY,
+	name VARCHAR(20) NOT NULL UNIQUE,
+	leader_id INT,
+	start_date DATE,
+	end_date DATE,
+	FOREIGN KEY(leader_id) references EMPLOYEE(id)
+		on delete SET NULL on update CASCADE
+	CHECK(start_date < end_date)
+)
+
+```
 
 **WORKS_ON**
 
