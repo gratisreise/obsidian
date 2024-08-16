@@ -245,3 +245,6 @@ create table TEST(
 
 ## subquery
 
+- **subquery**는 SELECT, INSERT, UPDATE, DELETE에 포함된 query
+- **outer query**(main query)는 subquery를 포함하는 query
+- **subquery**는 () 안에 기술된다
