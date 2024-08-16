@@ -97,6 +97,17 @@ create table PROJECT(
 
 | <u>empl_id | <u>proj_id |
 | ---------- | ---------- |
+``` sql
+create table DEPARTMENT(
+	empl_id INT,
+	proj_id INT,
+	PRIMARY KEY(empl_id, proj_id),
+	FOREIGN KEY(empl_id) references EMPLOYEE(id)
+		on delete CASCADE on update CASCADE,
+	FOREIGN KEY(proj_id) references PROJECT(id)
+		on delete CASCADE on update CASCADE
+);
+```
 
 ## attribute data type
 ###  숫자
