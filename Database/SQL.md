@@ -287,5 +287,17 @@ WHERE EXISTS(
 )
 ```
 - correlated query: subquery가 바깥쪽 query의 attribute를 참조할 때, correlated subquery라 부름
-- EXISTS: subquery의 결과가 최소 하나의 row라도 있다면 TRUE를 반환
+- EXISTS: subquery의 결과가 최소 하나의 row라도 있다면 TRUE를 반환
 - NOT EXISTS: subquery의 결과가 단 하나의 row도 없다면 TRUE를 반환
+
+
+```sql
+SELECT E.id, E.name, E.salary
+FROM department D, employee E
+WHERE D.leader_id = E.id AND E.salary < ANY(
+		SELECT salary
+		FROM employee
+		WHERE id <> D.leader_id AND dept_id = E.dept_id
+	);
+
+```
