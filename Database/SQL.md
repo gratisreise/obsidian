@@ -284,6 +284,8 @@ FROM project P
 WHERE EXISTS(
 		SELECT * FROM works_on W
 		WHERE W.proj_id = P.id AND W.empl_id IN(7, 12)
-		
 )
 ```
+- correlated query: subquery가 바깥쪽 query의 attribute를 참조할 때, correlated subquery라 부름
+- EXISTS: subquery의 결과가 최소 하나의 row라도 있다면 TRUE를 반환
+- NOT EXISTS: subquery의 결과가 단 하나의 row도 없다면 TRUE를 반환
