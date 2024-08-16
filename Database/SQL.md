@@ -184,12 +184,15 @@ FOREIGN KEY(dept_id)
 ### CHECK
 - attribute의 값을 제한하고 싶은 때 사용
 
-
-
-
-
----
-
 ### attribute DEFAULT
 - attribute의 default 값을 정의할 때 사용
 - 새로운 tuple을 저장할 때 해당 attribute에 대한 값이 없다면 default 값으로 저장
+
+### constraint 이름 명시하기
+- 이름을 붙이면 어떤 constraint을 위반했는지 쉽게 파악 가능
+- constraint를 삭제하고 싶을 때 해당 이름으로 삭제 가능
+```sql
+create table TEST(
+	age INT CONSTRAINT age_over_20 CHECK(age > 20)
+);
+```
