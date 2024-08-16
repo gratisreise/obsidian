@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#음식/이탈리안",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,8 +148,8 @@
   "active": "0e33409f28376044",
   "lastOpenFiles": [
     "Practice/옵시디언 시작하기.md",
-    "Practice/내부링크.md",
     "Practice/Shortcut.md",
+    "Practice/내부링크.md",
     "Practice/심화활용.md",
     "Practice/옵시디언 핵심 기능 활용하기.md",
     "Practice/생산성 프레임워크.md",
