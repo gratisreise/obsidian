@@ -100,6 +100,22 @@ create table DEPARTMENT(
 	- 사이즈가 큰 문자열을 저장할 때 사용
 	- TINYTEXT, TEXT, MEDIUMTEXT, LONGTEXT
 
+### 날짜와 시간
+- 날짜
+	- 년, 월, 일을 저장
+	- YYY-MM-DD
+	- DATE('1000-01-01' ~ '9999-12-31')
+- 시간
+	- 시, 분, 초를 저장
+	- hh:mm:ss or hhh:mm:ss
+	- TIME('-838:59:59' ~ '838:59:59')
+- 날짜와 시간
+	- 날짜와 시간을 같이 표현
+	- YYY-MM-DD hh:mm:ss
+	- TIMESTAMP는 time-zone이 반영됨
+	- DATETIME('1000-01-01 00:00:00' to '9999-12-31 23:59:59')
+	- TIMESTAMP('1970-01-01 00:00:01' UTC ~ '2038-01-19 03:14:07' UTC)
+
 
 
 
