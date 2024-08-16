@@ -159,6 +159,11 @@ create table DEPARTMENT(
 ### NOT NULL
 - attribute가 NOT NULL로 지정되면 해당 attribute는 NULL을 값으로 가질 수 없다
 
+### CHECK
+- attribute의 값을 제한하고 싶은 때 사용
+
+
+
 ---
 
 ### attribute DEFAULT
