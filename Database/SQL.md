@@ -292,7 +292,10 @@ WHERE EXISTS(
 
 
 ```sql
-SELECT E.id, E.name, E.salary
+SELECT E.id, E.name, E.salary, (
+		SELECT max(salary) FROM employee
+		WHERE dept_id = E.dept_id
+	) AS dept_max_salary
 FROM department D, employee E
 WHERE D.leader_id = E.id AND E.salary < ANY(
 		SELECT salary
