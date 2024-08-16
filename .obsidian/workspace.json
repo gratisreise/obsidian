@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkDown.md",
+                "file": "Practice/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MarkDown.md",
+                "file": "Practice/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MarkDown.md",
+                "file": "Practice/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MarkDown.md"
+                "file": "Practice/Untitled.md"
               }
             }
           }
@@ -147,6 +147,11 @@
   },
   "active": "0e33409f28376044",
   "lastOpenFiles": [
+    "Practice/Shortcut.md",
+    "Practice/Untitled.md",
+    "Practice.md",
+    "Practice",
+    "MarkDown.md",
     "Database/SQL.md",
     "2024-08-16.md",
     "Database/Relational Database.md",
@@ -156,7 +161,6 @@
     "Database/Redis.md",
     "Database/NoSQL.md",
     "Cloud/네이버클라우드.md",
-    "MarkDown.md",
     "연습.md",
     "Cloud",
     "FrontEnd/JS ES6.md",
@@ -177,13 +181,9 @@
     "MarkDown",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "BackEnd/SpringBoot/05.core-basic/10. 모니터링 메트릭 활용.md",
-    "BackEnd/SpringBoot/05.core-basic/09. 마이크로미터, 프로메테우스, 그라파나.md",
-    "BackEnd/SpringBoot/05.core-basic/08. 액츄에이터.md",
     "SpringBoot/01.orm-jpa/Untitled",
     "BackEnd/SpringBoot/05.core-basic",
     "Spring/04.spring-mvc/Untitled",
-    "ProgramingLanguage",
-    "DataStructure"
+    "ProgramingLanguage"
   ]
 }
