@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Database Theory.md",
+                "file": "Database/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Database Theory.md"
+                "file": "Database/SQL.md"
               }
             }
           }
@@ -147,8 +147,10 @@
   },
   "active": "0e33409f28376044",
   "lastOpenFiles": [
-    "Database/Kafka.md",
+    "Database/Relational Database.md",
+    "Database/Redis.md",
     "Database/MongoDB.md",
+    "Database/Kafka.md",
     "Database/Database Theory.md",
     "Practice/옵시디언 시작하기.md",
     "Practice/내부링크.md",
@@ -162,8 +164,6 @@
     "MarkDown.md",
     "Database/SQL.md",
     "2024-08-16.md",
-    "Database/Relational Database.md",
-    "Database/Redis.md",
     "Database/NoSQL.md",
     "Cloud/네이버클라우드.md",
     "연습.md",

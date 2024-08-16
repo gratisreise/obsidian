@@ -69,18 +69,22 @@
 - e.g PLAYER(id, name, team_id, back_number, birth_date)의 unique key는
   {team_id, back_number}
 
+
 > foreign key
 - 다른 relation의 PK를 참조하는 attributes set
 - e.g PLAYER(id, name, team_id, back_number, birth_date)와 TEAM(id, name, manager)가 있을 때 foreign key는 PLAYER의 {team_id}
+
 
 > constraints
 - relational database의 relations들이 언제나 항상 지켜줘야 하는 제약 사항
 - 일관성을 유지하기 위해 사용한다
 
+
 > implicit constraints(묵시적)
 - relational data model 자체가 가지는 constraints
 - relation은 중복되는 tuple을 가질 수 없다
 - relation 내에서는 같은 이름의 attribute를 가질 수 없다
+
 
 > schema-based constraints
 - 주로 DDL을 통해 schema에 직접 명시할 수 있는 constraints
