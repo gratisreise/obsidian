@@ -277,3 +277,13 @@ SELECT id, name FROM employee, (
 WHERE id = DISTINCT_E.empl_id
 
 ```
+
+```sql
+SELECT P.id, P.name
+FROM project P
+WHERE EXISTS(
+		SELECT * FROM works_on W
+		WHERE W.proj_id = P.id AND W.empl_id IN(7, 12)
+		
+)
+```
