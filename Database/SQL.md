@@ -306,3 +306,14 @@ WHERE D.leader_id = E.id AND E.salary < ANY(
 ```
 - v comparison_operator **ANY**(subquery): subquery가 반환한 결과들 중에 단 하나라도 v와의 비교 연산이 TRUE라면 TRUE를 반환한다
 - **SOME**도 **ANY**와 같은 역할을 한다
+
+```sql
+SELECT DISTINCT E.id, E.name, E.position
+FROM employee E, works_on W
+WHERE E.id = W.empl_id AND W.proj_id != ALL(
+		SELECT proj_id
+		FROM works_on
+		WHERE empl_id = 13
+	);
+
+```
