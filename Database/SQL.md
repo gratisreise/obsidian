@@ -36,7 +36,7 @@
 - 다른 RDBMS에서는 의미가 다르게 쓰임
 - i.g PostgreSQL에서는 SCHEMA가 DATABASE의 namespace를 의미한다
 
-## 관계형 DB 만들기
+### 관계형 DB 만들기
 
 > IT 회사 RDB 만들기
 - 부서, 사원, 프로젝트 관련 정보들을 저장할 수 있는 관계형 데이터 베이스
@@ -46,11 +46,19 @@
 
 | <u>id</u> | name | leader_id |
 | --------- | ---- | --------- |
+``` sql
+create table DEPARTMENT(
+	id INT PRIMARY KEY,
+	name VARCHAR(20) NOT NULL UNIQUE,
+	leader_id INT
+);
+```
 
 **EMPLOYEE**
 
 | <u>id</u> | name | birth_date | sex | position | salary | dept_id |
 | --------- | ---- | ---------- | --- | -------- | ------ | ------- |
+
 
 **PROJECT**
 
@@ -62,4 +70,9 @@
 | <u>empl_id | <u>proj_id |
 | ---------- | ---------- |
 
-> 
+> attribute data type: 숫자
+
+
+| 종류  |     |
+| --- | --- |
+|     |     |
