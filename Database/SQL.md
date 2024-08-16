@@ -220,3 +220,16 @@ create table TEST(
 	age INT CONSTRAINT age_over_20 CHECK(age > 20)
 );
 ```
+
+
+### ALTER TABLE
+- table의 Schema를 변경하고 싶을 때 사용
+- 이미 서비스 중인 table의 schema를 변경하는 것은 신중하게 하자
+
+| 유형              | 예제                                                     |
+| --------------- | ------------------------------------------------------ |
+| attribute 추가    | ALTER TABLE employee ADD blood VARCHAR(2);             |
+| attribute 이름 변경 | ALTER TABLE employee RENAME COLUMN phone TO phone_num; |
+| attribute 타입 변경 | ALTER TABLE employee MODIFY COLUMN blood CHAR(2);      |
+| table 이름 변경     | ALTER TABLE logs RENAME TO backend_logs;               |
+| ...             | ...                                                    |
