@@ -297,7 +297,9 @@ FROM department D, employee E
 WHERE D.leader_id = E.id AND E.salary < ANY(
 		SELECT salary
 		FROM employee
-		WHERE id <> D.leader_id AND dept_id = E.dept_id
+		WHERE id != D.leader_id AND dept_id = E.dept_id
 	);
 
 ```
+- v comparison_operator **ANY**(subquery): subquery가 반환한 결과들 중에 단 하나라도 v와의 비교 연산이 TRUE라면 TRUE를 반환한다
+- **SOME**도 **ANY**와 같은 역할을 한다
