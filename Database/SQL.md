@@ -70,9 +70,17 @@ create table DEPARTMENT(
 | <u>empl_id | <u>proj_id |
 | ---------- | ---------- |
 
-> attribute data type: 숫자
+### attribute data type: 숫자
+- 정수 : 정수를 저장할 때 사용
+	- 1 byte: TINYINT
+	- 2 byte: TINYINT
+	- 3 byte: TINYINT
+	- 4 byte: TINYINT
+	- 8 byte: TINYINT
+- 부동 소수점 방식(floating-point): 실수(real number)를 저장, 고정 소수점에 비해 정확성이 떨어짐
+	- 4 byte: FLOAT
+	- 8 byte: DOUBLE or DOUBLE PRECISION
+- 고정 소수점 방식(fixed-point): 실수를 정확하게 저장할 때 사용
+	- variable: 
 
 
-| 종류  |     |
-| --- | --- |
-|     |     |
