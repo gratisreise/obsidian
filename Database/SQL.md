@@ -58,6 +58,21 @@ create table DEPARTMENT(
 
 | <u>id</u> | name | birth_date | sex | position | salary | dept_id |
 | --------- | ---- | ---------- | --- | -------- | ------ | ------- |
+```sql
+create table DEPARTMENT(
+	id INT PRIMARY KEY,
+	name VARCHAR(30) NOT NULL,
+	birth_date DATE,
+	sex CHAR(1) CHECK(sex in('M', 'F')),
+	position VARCHAR(10),
+	salary INT DEFAULT 5000000,
+	dept_id INT,
+	FOREIGN KEY(dept_id) references DEPARTMENT(id)
+		on delete SET NULL on update CASCADE,
+	CHECK(salary >= 50000000)
+);
+
+```
 
 
 **PROJECT**
@@ -131,12 +146,21 @@ create table DEPARTMENT(
 	- JSON
 
 
-## Key contraints
+##  Contraints
 
 ### PRIMARY KEY
 - table의 tuple을 식별하기 위해 사용, 하나 이상의 attribute(s)로 구성
 - primary key는 중복된 값을 가질 수 없으며, NULL도 값으로 가질 수 없다.
 
+### UNIQUE
+- UNIQUE로 지정된 attribute(s)는 중복된 값을 가질 수 없다
+- 단, NULL은 중복을 허용할 수도 있다(RDBMS 마다 다름)
 
+### NOT NULL
+- attribute가 NOT NULL로 지정되면 해당 attribute는 NULL을 값으로 가질 수 없다
 
+---
 
+### attribute DEFAULT
+- attribute의 default 값을 정의할 때 사용
+- 새로운 tuple을 저장할 때 해당 attribute에 대한 값이 없다면 default 값으로 저장
