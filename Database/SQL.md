@@ -517,5 +517,25 @@ SELECT proj_id, COUNT(*), ROUND(AVG(salary), 0)
 FROM works_on W JOIN employee E ON w.empl_id = E.id
 WHERE E.birth_date BETWEEN '1990-01-01' AND '1999-12-31'
 GROUP BY W.proj_id;
+
+%% 각 참여인원이 7명 이상인 프로젝트 중 참여한 90년대생들의 수와 이들의 평균 연봉을 알고 싶다 %%
+SELECT proj_id, COUNT(*), ROUND(AVG(salary), 0)
+FROM works_on W JOIN employee E ON w.empl_id = E.id
+WHERE E.birth_date BETWEEN '1990-01-01' AND '1999-12-31'
+	AND W.proj_id IN(SELECT proj_id FROM works_on
+					 GROUP BY proj_id HAVING COUNT(*) >= 7)
+GROUP BY W.proj_id;
+ORDER BY W.proj_id;
 ```
+
+### SELECT 요약
+6. SELECT attribute(s) or aggregate function(s) 
+1. FROM table(s) 
+2. [WHERE condition(s)]
+3. [GROUP BY group attributes(s)]
+4. [HAVING group condition(s)]
+5. [ORDER BY attribute(s)]
+- select 쿼링에서 각 절(phrase)의 실행 순서는 개념적인 순서이다
+- select 쿼리의 실제 실행 순서는 각 RDBMS에서 어떻게 구현했는지에 따라 다르다
+
 
