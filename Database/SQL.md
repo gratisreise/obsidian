@@ -369,6 +369,12 @@ FROM employee E INNER JOIN department D ON E.dept_id = D.id;
 
 ### outer join
 `두 table에서 join condition을 만족하지 않는 tuple들도 result table에 포함하는 join`
+```SQL
+SELECT *
+%% FROM employee E LEFT OUTER JOIN department D ON E.dept_id = D.id; %%
+%% FROM employee E RIGHT OUTER JOIN department D ON E.dept_id = D.id; %%
+%% FROM employee E FULL OUTER JOIN department D ON E.dept_id = D.id; %%
+```
 
 - FROM table1 LEFT [OUTER] JOIN table2 ON join_condition
 - FROM table1 RIGHT [OUTER] JOIN table2 ON join_condition
