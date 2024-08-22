@@ -417,6 +417,8 @@ FROM employee E NATURAL INNER JOIN department D;
 - join condition이 없다
 - implicit cross join: FROM table1, table2
 - explicit cross join: FROM table1 CROSS JOIN table2
-
-
+@ MySQL
+- MySQL에서는 cross join = inner join = join 이다
+- CROSS JOIN에 ON(or USING)을 같이 쓰면 inner join으로 동작한다
+- INNER JOIN(or JOIN)이 ON(or USING)이 없이 사용되면 cross join으로 동작한다
 
