@@ -387,6 +387,30 @@ SELECT *
 - inner join outer join 상관없이 = 를 사용한 join이라면 equi join으로 보는 경우
 - inner join으로 한정해서 = 를 사용한 경우에 equi join으로 보는 경우
 
+### USING
+```SQL
+SELECT D.name
+FROM employee E JOIN department D USING(dept_id);
+```
+- 두 table이 equi join할 때 join하는 attribute의 이름이 같다면, USING으로 간단하게 작성할 수 있다
+- 이 때 같은 이름의 attribute는 result table에서 한번만 표시 된다
+- FROM table1 [INNER] JOIN table2 USING (attribute(s))
+- FROM table1 LEFT [OUTER] JOIN table2 USING (attribute(s))
+- FROM table1 RIGHT [OUTER] JOIN table2 USING (attribute(s))
+- FROM table1 FULL [OUTER] JOIN table2 USING (attribute(s))
+
+### natural join
+```SQL
+SELECT D.name
+FROM employee E NATURAL INNER JOIN department D;
+```
+- 두 table에서 같은 이름을 가지는 모든 attribute pair에 대해서 equi join을 수행
+- join condition을 따로 명시하지 않는다
+- FROM table1 NATURAL [INNER] JOIN table2
+- FROM table1 NATURAL LEFT [OUTER] JOIN table2
+- FROM table1 NATURAL RIGHT [OUTER] JOIN table2
+- FROM table1 NATURAL FULL [OUTER] JOIN table2
+
 
 
 
