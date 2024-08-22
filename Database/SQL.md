@@ -321,3 +321,20 @@ WHERE E.id = W.empl_id AND W.proj_id != ALL(
 1. 성능 비교 : IN vs EXISTS => 최근 성능차이가 거의없다
 
 
+
+
+## JOIN
+
+- 두 개 이상의 table들에 있는 데이터를 한 번에 조회하는 것
+- 여러 종류의 JOIN이 존재한다
+- implicit join
+- explicit join
+
+## Implicit join
+
+
+
+
+
+
+
