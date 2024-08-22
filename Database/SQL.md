@@ -453,6 +453,11 @@ SELECT * FROM employee ORDER BY salary;
 ### aggregate function
 ```MySQL
 SELECT COUNT(*) FROM employee;
+
+%% 프로젝트 2002에 참여한 임직원 수와 최대 연봉과 최소 연봉과 평균 연봉을 알고싶다 %%
+SELECT COUNT(*), MAX(salary), MIN(salary), AVG(salary)
+FROM works_on W JOIN employee E ON W.empl_id = E.id
+WHERE W.proj_id = 2002;
 ```
 - 여러 tuple들의 정보를 요약해서 하나의 값으로 추출하는 함수
 - 대표적으로 COUNT, SUM, MAX, MIN, AVG 함수가 있다
