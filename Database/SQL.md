@@ -439,5 +439,4 @@ SELECT E.name AS empl_name, E.position AS empl_position, D.name AS dept_name
 FROM works_on W JOIN employee E ON W.empl_id = E.id
 				LEFT JOIN department D ON E.dept_id = D.id
 WHERE W.proj_id = 2001;
-
 ```
