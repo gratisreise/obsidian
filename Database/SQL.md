@@ -440,3 +440,21 @@ FROM works_on W JOIN employee E ON W.empl_id = E.id
 				LEFT JOIN department D ON E.dept_id = D.id
 WHERE W.proj_id = 2001;
 ```
+
+### ORDER BY
+```MYSQL
+SELECT * FROM employee ORDER BY salary;
+```
+- 조회 결과를 특정 attribute(s) 기준으로 정렬하여 가져오고 싶을 때 사용한다
+- default 정렬 방식은 오름차순이다
+- 오름차순 정렬은 ASC로 표기한다
+- 내림차순 정렬은 DESC로 표기한다
+
+### aggregate function
+```MySQL
+SELECT COUNT(*) FROM employee;
+```
+- 여러 tuple들의 정보를 요약해서 하나의 값으로 추출하는 함수
+- 대표적으로 COUNT, SUM, MAX, MIN, AVG 함수가 있다
+- (주로) 관심있는 attribute에 사용된다 e.g) AVG(salary), MAX(birth_date)
+- NULL 값들은 제외하고 요약 값을 추출한다
