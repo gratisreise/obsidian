@@ -358,6 +358,10 @@ WHERE E.id = 1
 - 복잡한 join 쿼리 작성 중에도 실수할 가능성이 작다
 
 ### inner join
+`두 table에서 join condition을 만족하는 tuple들로 result table을 만드는 join`
+- FROM table1 [inner]JOIN table2 ON join_condition
+- join condition에 사용 가능한 연산자(operator) : = , <, >, != 등등 여러 비교 연산자가 가능하다
+- join condition에서 null 값을 가지는 tuple은 result table에 포함되지 못한다
 
 
 
