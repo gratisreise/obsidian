@@ -511,5 +511,11 @@ GROUP BY dept_id
 HAVING AVG(salary) <(
 	SELECT AVG(salary) FROM employee
 );
+
+%% 각 프로젝트별로 프로젝트에 참여한 90년대생들의 수와 이들의 평균 연봉을 알고 싶다 %%
+SELECT proj_id, COUNT(*), ROUND(AVG(salary), 0)
+FROM works_on W JOIN employee E ON w.empl_id = E.id
+WHERE E.birth_date BETWEEN '1990-01-01' AND '1999-12-31'
+GROUP BY W.proj_id;
 ```
 
