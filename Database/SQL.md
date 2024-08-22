@@ -459,11 +459,37 @@ SELECT COUNT(*), MAX(salary), MIN(salary), AVG(salary)
 FROM works_on W JOIN employee E ON W.empl_id = E.id
 WHERE W.proj_id = 2002;
 
-SELECT W.proj_id, COUNT(*), MAX(salary), MIN(salary), AVG(salary)
-FROM works_on W JOIN employee E ON W.empl_id = E.id
-GROUP BY W.proj_id;
 ```
 - 여러 tuple들의 정보를 요약해서 하나의 값으로 추출하는 함수
 - 대표적으로 COUNT, SUM, MAX, MIN, AVG 함수가 있다
 - (주로) 관심있는 attribute에 사용된다 e.g) AVG(salary), MAX(birth_date)
 - NULL 값들은 제외하고 요약 값을 추출한다
+
+### GROUP BY
+``` MySQL
+%% 각 프로젝트에 참여한 임직원 수와 최대 연봉과 최소 연봉과 평균 연봉을 알고 싶다 %%
+SELECT W.proj_id, COUNT(*), MAX(salary), MIN(salary), AVG(salary)
+FROM works_on W JOIN employee E ON W.empl_id = E.id
+GROUP BY W.proj_id;
+```
+- 관심있는 attribute(s) 기준으로 그룹을 나눠서 그룹별로 aggregate function을 적용하고 싶을 때 사용
+- grouping attribute(s): 그룹을 나누는 기준이 되는 attribute(s)
+- grouping attribute(s)에 NULL 값이 있을 때는 NULL 값을 가지는 tuple끼리 묶인다
+
+### HAVING
+```MySQL
+%% 참여인원이 7명 이상인 프로젝트 임직원 수와 최대 연봉과 최소 연봉과 평균 연봉을 알고 싶다 %%
+SELECT W.proj_id, COUNT(*), MAX(salary), MIN(salary), AVG(salary)
+FROM works_on W JOIN employee E ON W.empl_id = E.id
+GROUP BY W.proj_id
+HAVING COUNT(*) >= 7;
+
+%% 각 부서별 인원수를 인원 수가 많은 순서대로 정렬해서 알고 싶다 %%
+SELECT dept_id, COUNT(*) AS empl_count 
+FROM employee
+GROUP BY dept_id
+ORDER BY empl_count DESC;
+```
+- GROUP BY와 함께 사용한다
+- aggregate function의 결과값을 바탕으로 그룹을 필터링하고 싶을 때 사용한다
+- HAVING절에 명시된 조건을 만족하는 그룹만 결과에 포함된다
