@@ -422,3 +422,19 @@ FROM employee E NATURAL INNER JOIN department D;
 - CROSS JOIN에 ON(or USING)을 같이 쓰면 inner join으로 동작한다
 - INNER JOIN(or JOIN)이 ON(or USING)이 없이 사용되면 cross join으로 동작한다
 
+### self jion
+- table이 자기 자신에게 join하는 경우
+
+### join example
+- ID가 1003인 부서에 속하는 임직원 중 리더를 제외한 부서원의 ID, 이름, 연봉을 알고 싶다
+```MySQL
+SELECT E.id, E.name, E.salary
+FROM employee E JOIN department D ON E.dept_id = D.id
+WHERE E.dept_id = 1003 and E.id != D.leader_id;
+```
+
+- ID가 2001인 프로젝트에 참여한 임직원들의 이름과 직군과 소속 부서 이름을 알고 싶다
+```MySQL
+
+
+```
