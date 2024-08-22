@@ -11,8 +11,12 @@
             "id": "d126b00fcd0cde61",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Database/SQLD.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Database/SQLD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Database/SQLD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Database/SQLD.md"
+              }
             }
           }
         ]
@@ -141,12 +149,13 @@
   },
   "active": "d126b00fcd0cde61",
   "lastOpenFiles": [
+    "Database/Database Theory.md",
+    "Database/SQLD.md",
     "Database/SQL.md",
     "Database/Relational Database.md",
     "Database/Redis.md",
     "Database/MongoDB.md",
     "Database/Kafka.md",
-    "Database/Database Theory.md",
     "Practice/옵시디언 시작하기.md",
     "Practice/내부링크.md",
     "Practice/Shortcut.md",
@@ -168,7 +177,6 @@
     "BackEnd/Spring/02.spring-basic/01. 객체 지향 설계와 스프링.md",
     "BackEnd/Spring/01.spring-intro/07. AOP.md",
     "BackEnd/Spring/01.spring-intro/06. 스프링 DB 접근 기술.md",
-    "BackEnd/Spring/01.spring-intro/05. 웹 MVC 개발.md",
     "Database",
     "FrontEnd",
     "BackEnd",
