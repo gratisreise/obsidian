@@ -375,12 +375,17 @@ SELECT *
 %% FROM employee E RIGHT OUTER JOIN department D ON E.dept_id = D.id; %%
 %% FROM employee E FULL OUTER JOIN department D ON E.dept_id = D.id; %%
 ```
-
 - FROM table1 LEFT [OUTER] JOIN table2 ON join_condition
 - FROM table1 RIGHT [OUTER] JOIN table2 ON join_condition
 - FROM table1 FULL [OUTER] JOIN table2 ON join_condition
 - join condition에 사용 가능한 연산자(operator): =, <, >, != 등등 여러 비교 연산자가 가능하다
 
+### equi join
+- join condition에서 = (equality comparator)를 사용하는 join
+
+### equi join에 대한 두 가지 시각
+- inner join outer join 상관없이 = 를 사용한 join이라면 equi join으로 보는 경우
+- inner join으로 한정해서 = 를 사용한 경우에 equi join으로 보는 경우
 
 
 
