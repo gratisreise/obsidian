@@ -367,7 +367,13 @@ FROM employee E INNER JOIN department D ON E.dept_id = D.id;
 - join condition에 사용 가능한 연산자(operator) : = , <, >, != 등등 여러 비교 연산자가 가능하다
 - join condition에서 null 값을 가지는 tuple은 result table에 포함되지 못한다
 
+### outer join
+`두 table에서 join condition을 만족하지 않는 tuple들도 result table에 포함하는 join`
 
+- FROM table1 LEFT [OUTER] JOIN table2 ON join_condition
+- FROM table1 RIGHT [OUTER] JOIN table2 ON join_condition
+- FROM table1 FULL [OUTER] JOIN table2 ON join_condition
+- join condition에 사용 가능한 연산자(operator): =, <, >, != 등등 여러 비교 연산자가 가능하다
 
 
 
