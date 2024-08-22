@@ -458,6 +458,10 @@ SELECT COUNT(*) FROM employee;
 SELECT COUNT(*), MAX(salary), MIN(salary), AVG(salary)
 FROM works_on W JOIN employee E ON W.empl_id = E.id
 WHERE W.proj_id = 2002;
+
+SELECT COUNT(*), MAX(salary), MIN(salary), AVG(salary)
+FROM works_on W JOIN employee E ON W.empl_id = E.id
+GROUP BY W.proj_id;
 ```
 - 여러 tuple들의 정보를 요약해서 하나의 값으로 추출하는 함수
 - 대표적으로 COUNT, SUM, MAX, MIN, AVG 함수가 있다
