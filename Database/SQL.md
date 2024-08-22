@@ -411,8 +411,12 @@ FROM employee E NATURAL INNER JOIN department D;
 - FROM table1 NATURAL RIGHT [OUTER] JOIN table2
 - FROM table1 NATURAL FULL [OUTER] JOIN table2
 
+### cross join
 
-
+- 두 table의 tuple pair로 만들 수 있는 모든 조합(= Cartesian product)을 result table로 반환한다
+- join condition이 없다
+- implicit cross join: FROM table1, table2
+- explicit cross join: FROM table1 CROSS JOIN table2
 
 
 
