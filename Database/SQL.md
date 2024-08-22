@@ -484,12 +484,32 @@ FROM works_on W JOIN employee E ON W.empl_id = E.id
 GROUP BY W.proj_id
 HAVING COUNT(*) >= 7;
 
-%% 각 부서별 인원수를 인원 수가 많은 순서대로 정렬해서 알고 싶다 %%
-SELECT dept_id, COUNT(*) AS empl_count 
-FROM employee
-GROUP BY dept_id
-ORDER BY empl_count DESC;
+
 ```
 - GROUP BY와 함께 사용한다
 - aggregate function의 결과값을 바탕으로 그룹을 필터링하고 싶을 때 사용한다
 - HAVING절에 명시된 조건을 만족하는 그룹만 결과에 포함된다
+
+### Example
+```MySQL
+%% 각 부서별 인원수를 인원 수가 많은 순서대로 정렬해서 알고 싶다 %%
+SELECT dept_id, COUNT(*) AS empl_count 
+FROM employee
+GROUP BY dept_id,
+ORDER BY empl_count DESC;
+
+%% 각 부서별 인원수를 인원 수가 많은 순서대로 정렬해서 알고 싶다 %%
+SELECT dept_id,sex, COUNT(*) AS empl_count 
+FROM employee
+GROUP BY dept_id, sex
+ORDER BY empl_count DESC;
+
+%% 회사 전체 평균 연봉보다 평균 연봉이 적은 부서들의 평균 연봉을 알고 싶다 %%
+SELECT dept_id, AVG(salary)
+FROM employee
+GROUP BY dept_id
+HAVING AVG(salary) <(
+	SELECT AVG(salary) FROM employee
+);
+```
+
