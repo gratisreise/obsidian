@@ -459,7 +459,7 @@ SELECT COUNT(*), MAX(salary), MIN(salary), AVG(salary)
 FROM works_on W JOIN employee E ON W.empl_id = E.id
 WHERE W.proj_id = 2002;
 
-SELECT COUNT(*), MAX(salary), MIN(salary), AVG(salary)
+SELECT W.proj_id, COUNT(*), MAX(salary), MIN(salary), AVG(salary)
 FROM works_on W JOIN employee E ON W.empl_id = E.id
 GROUP BY W.proj_id;
 ```
